@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.63142b53.chunk.css",
+    "main.js": "/Portfolio/static/js/main.3f7c92d1.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.3f7c92d1.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.608079f3.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.608079f3.js.map",
+    "static/js/2.b74f2ee1.chunk.js": "/Portfolio/static/js/2.b74f2ee1.chunk.js",
+    "static/js/2.b74f2ee1.chunk.js.map": "/Portfolio/static/js/2.b74f2ee1.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.63142b53.chunk.css.map": "/Portfolio/static/css/main.63142b53.chunk.css.map",
+    "static/js/2.b74f2ee1.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b74f2ee1.chunk.js.LICENSE.txt",
+    "static/media/Crear Páginas Web Desde Cero en HTML 5.5dc2c543.jpg": "/Portfolio/static/media/Crear Páginas Web Desde Cero en HTML 5.5dc2c543.jpg",
+    "static/media/Programación Básica.5152bb34.png": "/Portfolio/static/media/Programación Básica.5152bb34.png",
+    "static/media/SCRUM.d874959a.PNG": "/Portfolio/static/media/SCRUM.d874959a.PNG",
+    "static/media/kodigo.cd91c79f.png": "/Portfolio/static/media/kodigo.cd91c79f.png",
+    "static/media/myPhoto.e9f5ec1c.jpeg": "/Portfolio/static/media/myPhoto.e9f5ec1c.jpeg",
+    "static/media/ricaldone.13de023e.png": "/Portfolio/static/media/ricaldone.13de023e.png",
+    "static/media/slider.2c1d7981.jpg": "/Portfolio/static/media/slider.2c1d7981.jpg",
+    "static/media/ues.26d1c18a.png": "/Portfolio/static/media/ues.26d1c18a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.608079f3.js",
+    "static/js/2.b74f2ee1.chunk.js",
+    "static/css/main.63142b53.chunk.css",
+    "static/js/main.3f7c92d1.chunk.js"
+  ]
+}
