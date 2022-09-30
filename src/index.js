@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './tailwind.output.css';
-import {faJs,faPhp,faHtml5,faCss3Alt,faReact,faVuejs,faBootstrap,faJava, faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faJs,faPhp,faHtml5,faCss3Alt,faReact,faVuejs,faBootstrap,faJava, faGithub, faPython} from '@fortawesome/free-brands-svg-icons';
 import kod from './img/education/kodigo.png';
 import ric from './img/education/ricaldone.png';
 import ues from './img/education/ues.png';
@@ -23,7 +23,7 @@ const App = () =>
 				<div className="px-2 lg:w-1/2 w-full">
 					<h1 className="text-gray-900 text-lg title-font text-5xl text-center md:text-left">Sobre mi</h1>
 					<p className="text-justify mt-2">
-						Mi nombre es <b>Kevin Alejandro Agreda Lemus</b>, tengo 20 años de edad, soy desarrollador web especializándome en JavaScript y PHP, además de manejar lenguajes de programación para el desarrollo de aplicaciones de escritorio. 
+						Mi nombre es <b>Kevin Alejandro Agreda Lemus</b>, tengo 22 años de edad, soy desarrollador web especializándome en JavaScript y PHP, además de manejar lenguajes de programación para el desarrollo de aplicaciones de escritorio. 
 					</p>
 					<p className="text-justify mt-2">
 						Actualmente estoy estudiando en la Universidad Nacional de El Salvador en la carrera de Ingeniería en Sistemas Informático aunque me gusta demasiado aprender por mi propia cuenta tecnologías nuevas que 
@@ -47,14 +47,15 @@ const App = () =>
 					<h1 className="text-gray-900 text-lg title-font text-5xl text-center md:text-left">Tecnologías</h1>
 					<div className="w-full flex flex-wrap content-between">
 						<Icon text="purple-600" icon={faPhp} name = "PHP" knowledge="11"/>
-						<Icon text="orange-500" icon={faHtml5} name = "HTML5" knowledge="11"/>
+						<Icon text="orange-500" icon={faHtml5} name = "HTML5" knowledge="12"/>
 						<Icon text="blue-400" icon={faCss3Alt} name = "CSS3" knowledge="11"/>
 						<Icon text="yellow-400" icon={faJs} name = "Javascript" knowledge="9"/>
 						<Icon text="blue-400" icon={faReact} name = "React JS" knowledge="9"/>
 						<Icon text="green-500" icon={faVuejs} name = "Vue JS" knowledge="7"/>
-						<Icon text="black-500" icon={faGithub} name = "GitHub" knowledge="10"/>
+						<Icon text="black-500" icon={faGithub} name = "GitHub" knowledge="11"/>
 						<Icon text="purple-700" icon={faBootstrap} name = "Bootstrap" knowledge="12"/>
 						<Icon text="blue-700" icon={faJava} name = "Java" knowledge="10"/>
+						<Icon text="black-500" icon={faPython} name = "Python" knowledge="6"/>
 					</div>
 				</div>
     		</div>
@@ -68,7 +69,7 @@ const App = () =>
 				<Education
 					name="KODIGO"
 					imageURL={kod}
-					time="2020 - Actualidad"
+					time="2020 - 2021"
 				/>
 				<Education
 					name="Instituto Técnico Ricaldone"
@@ -104,15 +105,22 @@ const App = () =>
 					description="Sitio web donde puede comprar productos para organizar una reunión de amigos, fiestas de cumpleaños,
 					bodas, entre otras eventos."
 					languages={['Javascript','PHP','JQuery','MySQL']}
-        			url="https://kevinagreda245.github.io/Trivia-Quiz/"
+        			url="https://github.com/KevinAgreda245/PartyTown"
       			/>
 				<Project 
-        			name="Monster University System" 
-					description="Sistema para una universidad donde un estudiante puede aplicar para estudiar en la institución, seleccionando
-					la carrera que quiera cursar además de ver su estado de solicitud."
-					languages={['Javascript','PHP','JQuery','MySQL']}
-        			url="https://kevinagreda245.github.io/Trivia-Quiz/"
+        			name="ARSS" 
+					description="Sitio web donde pueda buscar servicios y/o repuestos automotriz de un catalogo de tiendas que se registren
+					en el sitio"
+					languages={['PHP - Lavarel','MySQL']}
+					url="https://github.com/balmoreortiz/arss/tree/PruebaProyecto"
       			/>
+				<Project 
+        			name="SGC" 
+					description="Sistema para el control de detenidos en el estado de excepción en El Salvador."
+					languages={['Django','MySQL','Javascript']}
+					url="https://github.com/GNavarroSV/proyecto-hdp115"
+      			/>
+				
     		</div>
 			<h1 className="m-2 text-gray-900 title-font text-5xl text-center md:text-left">Diplomas</h1>
 			<div className="flex flex-wrap m-4 items-baseline justify-center">
@@ -134,7 +142,7 @@ const App = () =>
     		<div className="pt-2">
         		<div className="flex pb-5 px-3 m-auto pt-5 border-t border-gray-500 text-gray-400 text-sm flex-col md:flex-row max-w-6xl">
             		<div className="mt-2 text-center">
-                		© Copyright 2021. Todos los derechos reservados. Hecho por: Kevin Agreda
+                		© Copyright 2022. Todos los derechos reservados. Hecho por: Kevin Agreda
             		</div>
         		</div>
     		</div>
